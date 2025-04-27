@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background: #0077cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a, nav ul li button {
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h1, h2 {
+    color: #0077cc;
+}
+
+form input, form select, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+}
+
+footer {
+    background: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode footer {
+    background-color: #222;
+}
+
+.dark-mode nav ul li a, .dark-mode nav ul li button {
+    color: #eee;
+}
+
+/* Language Switch */
+#language-switch {
+    background-color: #eee;
+    color: #0077cc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Mode Switch */
+#mode-switch {
+    background-color: #eee;
+    color: #0077cc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
